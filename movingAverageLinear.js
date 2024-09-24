@@ -1,9 +1,5 @@
-// Moving average filter
-
-// one-side (odd or even number of points)
-// Not recursive!
 /**
- * movingAverageAhead
+ * movingAverageAhead: non-recursive/linear, naive
  * @param {number[]} inputSamples the input samples array
  * @param {number} startIndex starting sample index
  * @param {number} M number of points (odd or even)
