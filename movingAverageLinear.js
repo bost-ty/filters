@@ -1,6 +1,7 @@
 // Moving average filter
 
 // one-side (odd or even number of points)
+// Not recursive!
 /**
  * movingAverageAhead
  * @param {number[]} inputSamples the input samples array
